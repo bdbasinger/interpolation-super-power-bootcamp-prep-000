@@ -5,9 +5,9 @@
 
 
 def display_rainbow(colors)
-  letter = ""
+  arr = []
   colors.each do |color|
-    puts "#{color[0].capitalize}: #{color}"
+    arr << "#{color[0].capitalize}: #{color}"
   end
 end
 
