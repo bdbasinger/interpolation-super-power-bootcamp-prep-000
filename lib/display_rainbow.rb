@@ -9,7 +9,7 @@ def display_rainbow(colors)
   colors.each do |color|
     arr << "#{color[0].capitalize}: #{color}"
   end
-  print arr.join(' ')
+  print arr.join(', ')
 end
 
 
