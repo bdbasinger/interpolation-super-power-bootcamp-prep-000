@@ -4,7 +4,7 @@
 
 
 
-def display_rainbow(arr)
+def display_rainbow(colors)
   
 end
 
@@ -21,4 +21,4 @@ expect(colors).to receive(:[]).with(4).at_least(:once).and_return("blue")
 expect(colors).to receive(:[]).with(5).at_least(:once).and_return("indigo")
 expect(colors).to receive(:[]).with(6).at_least(:once).and_return("violet")
     
-    =end
+=end
