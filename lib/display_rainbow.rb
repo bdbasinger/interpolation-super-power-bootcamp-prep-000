@@ -2,12 +2,14 @@
 
 
 
-
+# ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 def display_rainbow(colors)
   letter = ""
+  i = 0
   colors.each do |color|
-    
+    letter = color[i].capitalize
+    puts 
 end
 
 
