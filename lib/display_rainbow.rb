@@ -1,21 +1,12 @@
 # Write your #display_rainbow method here
 
-# ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-# "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
-
 
 def display_rainbow(colors)
   letter = ""
-  i = 0
   colors.each do |color|
-    letter = color[i].capitalize
-    puts "#{letter}: #{color}"
-    i += 1 
+    puts "#{color[0].capitalize}: #{color}"
   end
 end
-
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
-
 
 =begin 
 
