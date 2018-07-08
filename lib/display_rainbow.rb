@@ -11,3 +11,5 @@ def display_rainbow(colors)
   end
   print arr
 end
+
+
