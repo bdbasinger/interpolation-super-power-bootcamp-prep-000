@@ -4,15 +4,6 @@
 
 
 
-def display_rainbow(colors)
-  arr = []
-  colors.each do |color|
-    arr << "#{color[0].capitalize}: #{color}"
-  end
-  answer = arr.join(', ')
-  print "#{answer}\n"
+def display_rainbow(arr)
+  puts "R: #{arr[0]}, O: #{arr[1]}, Y: #{arr[2]}, G: #{arr[3]}, B: #{arr[4]}, I: #{arr[5]}, V: #{arr[6]}"
 end
-
-
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
-
