@@ -11,6 +11,7 @@ def display_rainbow(colors)
     letter = color[i].capitalize
     puts "#{letter}: #{color}"
     i += 1 
+  end
 end
 
 
